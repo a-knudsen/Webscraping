@@ -37,4 +37,7 @@ Hometown: Mount Olympus
 >>> end_index = html.find("</title>")
 >>> end_index
 39
->>> 
+>>> title = html[start_index:end_index]
+>>> title
+'Profile: Aphrodite'
+
